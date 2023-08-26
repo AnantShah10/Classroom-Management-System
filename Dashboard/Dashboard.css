@@ -1,0 +1,67 @@
+:root {
+    --black: #000;
+    --grey: #808080;
+    --matt: #f4f3ef;
+    --white: #ffffff;
+}
+
+.body .main_section {
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding-top: 5vw;
+    gap: 2vw;
+}
+
+.body .main_section .dashboard-box {
+    margin-left: 2vw;
+    background-color: var(--white);
+    border: 0.25vw solid var(--grey);
+    border-radius: 0.5vw;
+    height: 10vw;
+    width: 20vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.body .main_section .dashboard-box .dashboard-innerbox {
+    display: flex;
+    flex-flow: row;
+    margin: 0.5vw;
+    border-bottom: 0.125vw solid var(--grey);
+    height: 7vw;
+    font-size: 1.5vw;
+    justify-content: space-between;
+}
+
+.body .main_section .dashboard-box .dashboard-innerbox .icon {
+    display: flex;
+    align-items: center;
+}
+
+.body .main_section .dashboard-box .dashboard-innerbox .icon img {
+    margin-left: 0.5vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+.body .main_section .dashboard-box .view button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.body .main_section .dashboard-box .view button a{
+    display: flex;
+    flex-flow: row;
+    margin-left: 0.5vw;
+    font-size: 1vw;
+    gap: 1vw;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black)
+}
+
+.body .main_section .dashboard-box .view img {
+    width: 1vw;
+    height: 1vw;
+}

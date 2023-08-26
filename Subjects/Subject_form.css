@@ -1,0 +1,100 @@
+:root {
+    --creme: #fffcf5;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    width: 20vw;
+    margin: auto;
+    padding-bottom: 1vw;
+    align-items: center;
+    border: 0.25vw solid;
+    gap: 1vw;
+}
+
+form .heading {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    margin-top: 0.25vw;
+    margin-left: 1vw;
+    align-items: center;
+}
+
+form .heading .cross {
+    display: flex;
+    font-size: 1vw;
+    width: 1.5vw;
+    height: 3vw;
+    justify-content: flex-end;
+}
+
+form .formelement {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    align-items: stretch;
+}
+
+form .formelement label {
+    font-size: 0.9vw;
+}
+
+form .formelement input {
+    background-color: var(--creme);
+    font-size: 1.5vw;
+}
+
+form .formelement .radio {
+    display: flex;
+    flex-flow: row;
+    gap: 1vw;
+}
+
+form .formelement .radio div {
+    display: flex;
+    align-items: center;
+    gap: 0.25vw;
+}
+
+form .formelement .radio input[type = "radio"] {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+form .formelement .radio label {
+    font-size: 1.2vw;
+}
+
+form .button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .button button {
+    padding: 0.5vw;
+    margin-right: 1vw;
+    border: 0.25vw solid var(--white);
+    border-radius: 2.2vw;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 1.25vw;
+    color: var(--white);
+    background-color: var(--black);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+form .button button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 0.25vw solid var(--black);
+    border-radius: 2.2vw;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+:root {
+    --creme: #fffcf5;
+}
+
+body .main_section {
+    display: flex;
+    flex-flow: column;
+    gap: 2vw;
+}
+
+body .main_section .form {
+    display: none;
+    position: fixed;
+    top: 0;
+    /* right: 15px;
+    border: 3px solid #f1f1f1; */
+    z-index: 9;
+    max-width: 300px;
+    padding: 10px;
+}
+
+body .main_section .section_name {
+    margin-left: 2vw;
+    padding-top: 2vw;
+    font-size: 2vw;
+}
+
+body .main_section .new_subject button a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+body .main_section .new_subject button a:hover {
+    text-decoration: none;
+    color: var(--black)
+}
+
+body .main_section .new_subject {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5vw;
+}
+
+body .main_section .new_subject button {
+    padding: 0.5vw;
+    margin-right: 1vw;
+    border: 0.25vw solid var(--white);
+    border-radius: 2.2vw;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 1vw;
+    color: var(--white);
+    background-color: var(--black);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+body .main_section .new_subject button:hover,
+td form button {
+    color: var(--black);
+    background-color: var(--white);
+    border: 0.25vw solid var(--black);
+    border-radius: 2.2vw;
+    cursor: pointer;
+}
+
+body .main_section .Subject_Table {
+    display: flex;
+    flex-flow: column;
+    margin-left: 2vw;
+    margin-right: 1.5vw;
+    font-size: 1.25vw;
+    gap: 0.5vw;
+}
+
+body .main_section .Subject_Table .Table table {
+    width: 100%;
+}

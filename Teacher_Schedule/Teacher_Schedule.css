@@ -1,0 +1,51 @@
+:root {
+    --creme: #fffcf5;    
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body .main_section {
+    display: flex;
+    flex-flow: column;
+    gap: 2vw;
+}
+
+body .main_section .section_name {
+    margin-left: 2vw;
+    padding-top: 2vw;
+    font-size: 2vw;
+}
+
+
+body .main_section .Schedule_Table {
+    display: flex;
+    flex-flow: column;
+    margin-left: 2vw;
+    margin-right: 1.5vw;
+    font-size: 1.25vw;
+    gap: 0.5vw;
+}
+
+body .main_section .Schedule_Table .Table table {
+    width: 100%;
+}
+
+body .main_section .Schedule_Table .Table table tr td button {
+    padding: 0.5vw;
+    margin-right: 1vw;
+    border: 0.25vw solid var(--white);
+    border-radius: 2.2vw;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 1vw;
+    color: var(--white);
+    background-color: var(--black);
+    text-align: center;
+    transition: all 0.2s;
+    width: 40%;
+}
+
+body .main_section .Schedule_Table .Table table tr td button a {
+    color: var(--white);
+    text-decoration: none;
+}

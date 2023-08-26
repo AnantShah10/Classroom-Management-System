@@ -1,0 +1,85 @@
+:root {
+    --black: #000;
+    --grey: #808080;
+    --matt: #f4f3ef;
+    --white: #ffffff;
+}
+
+body {
+    padding: 0vw;
+    margin: 0vw;
+    display: flex;
+    flex-flow: row;
+    background-color: var(--matt);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: var(--black);
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    width: 25vw;
+    display: flex;
+    flex-flow: column;
+    gap: 3.2vw;
+    position: relative;
+}
+
+.menu .menu_option {
+    display: flex;
+    flex-flow: row;
+    position: sticky;
+}
+
+.menu .menu_option button,
+.profile button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.profile button a {
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu .menu_option div {
+    font-size: 2.3vw;
+    color: var(--grey);
+}
+
+.body .header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-top: 0.25vw solid var(--grey);
+    border-bottom: 0.25vw solid var(--grey);
+}
+
+.body .header .projname {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 1.5vw;
+    font-size: 2.5vw;
+    color: var(--grey);
+}
+
+.body .header .profile {
+    display: flex;
+    align-items: center;
+    font-size: 1.75vw;
+    padding-right: 1.5vw;
+}
+
+.body {
+    width: 100%;
+}
+
+.body .main_section {
+    display: flex;
+}
